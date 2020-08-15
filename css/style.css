@@ -1,0 +1,197 @@
+.navbar{
+  position: absolute;
+  width: 100%;
+  
+ 
+}
+.hearderset{
+  
+  padding-top:250px ;
+  box-sizing: border-box;
+}
+.carousel-caption h1{
+  font-size: 42px;
+}
+.carousel-caption{
+  font-size: 82px;
+  font-weight: bold;
+}
+
+.skills {
+  padding: 100px 0px 60px;
+  
+}
+.skills h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+.rowsetting{
+  margin: 70px 0px !important;
+  
+
+}
+.rowsetting h2{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.rowsetting p{
+  padding: 20px;
+}
+.imgsetting{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+} 
+.fa-html5{
+  margin-top: 24px;
+}
+.fa-css3{
+  margin-top: 24px;
+}
+.fa-android{
+  margin-top: 21px;
+}
+
+/* /////////////////////////////////////projet////////////////////////////////////////*/
+
+
+.project{
+  
+  width: 100%;
+  padding: 100px 0px 50px;
+
+}
+.project h1{
+  font-size: 50px;
+  font-weight: bold
+  ;
+}
+.card{
+  margin-top:40px ;
+}
+
+.ourteam h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+.teamsetting{
+  margin-top: 50px !important;
+
+}
+.footer{
+  height: 50px;
+}
+/*//////////////////////////responsive*/
+@media(min-width:992px){
+  
+
+}
+@media(min-width:768px)and(max-width:991px){
+
+}
+@media(min-width:575px)and(max-width:767px){
+  
+}
+@media(min-width:480px)and(max-width:574px){
+  
+
+
+}
+
+
+
+
+
+@media(max-width:479px){
+  .carousel-item {
+    
+  }
+  
+  
+  
+  .skills {
+    height: 1250px;
+  }
+  .project{
+    height: 2800px;
+  }
+  
+}
+#btnsearch{
+  
+  size: 132px;
+  margin-bottom: 95px;
+  border-radius: 1.5rem;
+  background-color: white;
+  color:rgb(14, 11, 11);
+  
+}
+.search-bar{
+z-index: 1;
+top: 200px;
+  position: absolute;
+  width: 100%;
+}
+
+
+.carousel-item {
+  
+  height: 42rem;
+  background-size: cover;
+  background-position: center center;
+  
+
+}
+.carousel-caption{
+
+  margin-bottom: 40px;
+}
+.carousel-caption h1{
+  
+  
+  height:480px ;
+  
+}
+.carousel-caption h2{
+  
+  font-family: sans-serif;
+  margin-bottom: 100px;}
+#btnlogin{
+  margin-left: 20px;
+}
+
+
+
+
+.card p{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+}
+.card-img{
+  height: 180px;
+}
+
+.fa, .fas {
+  font-family: 'FontAwesome';
+}
+
+.social-icon {
+margin-top: 15px;
+color: #fff;
+background: #221B14; 
+font-size:1em;
+border-radius: 50%;
+line-height: 2.2em;
+width: 2.1em;
+height: 2.1em;
+text-align: center;
+display: inline-block;
+
+}
+
+li:hover {
+  transform: translateY(-4px);
+  transition:0.3s;
+}
